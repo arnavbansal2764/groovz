@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract HolymolyPlayer {
+contract Groovz {
     struct MusicToken {
         uint256 tokenId; 
         address payable owner; 

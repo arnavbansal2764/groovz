@@ -20,8 +20,8 @@ const AuthModal = () => {
       description="Please connect to Sepolia testnet." 
       isOpen={isOpen} 
       onChange={onChange} 
-    >   
-    <p></p>
+    >
+      <p></p>
     </Modal>
   
   );

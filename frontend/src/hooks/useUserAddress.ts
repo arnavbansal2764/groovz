@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from 'react';
-import abi from "../contracts/HolymolyPlayer.json"
+import abi from "../contracts/Groovz.json"
 import contractAddress from "../contracts/contract-address.json"
 import { ethers } from "ethers"
 
@@ -19,7 +19,7 @@ const useUserAddress = () => {
     contract: null,
   });
   const SEPOLIA_NETWORK_ID = '11155111';
-  const contract_address = contractAddress.HolymolyPlayer;
+  const contract_address = contractAddress.Groovz;
   const contractABI = abi.abi;
   
 
@@ -37,6 +37,7 @@ const useUserAddress = () => {
           }); 
 
           if (ethereum.networkVersion === SEPOLIA_NETWORK_ID) {
+            
             const accounts = await ethereum.request({
               method: "eth_requestAccounts",
             });

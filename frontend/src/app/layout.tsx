@@ -9,7 +9,7 @@ import Player from '@/components/Player'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Holymoly Player | Listen Music Anytime',
+  title: 'Groovz',
   description: 'A decentralized music player',
 }
 
